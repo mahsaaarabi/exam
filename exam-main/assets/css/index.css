@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(31, 88, 244);
+}
+.container{
+    width: 2048px;
+    max-width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+.navbar{
+    width: 100%;
+    background-image: url("https://brand.assets.adidas.com/f_auto,q_auto,fl_lossy/capi/enUS/Images/seo-adidas-virtual-backgrounds-masthead-d_221-691488.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    height: 450px;
+}
+.navbar-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+    width: 100%;
+    max-width: 100%;
+}
+.navbar-item i{
+    font-size: 30px;
+}
+.icon{
+    background-color: white;
+    padding: 10px;
+    border-radius: 50px;
+}
+.shop-bag{
+    position: relative;
+}
+.shop-bag span{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255 255 255 / 93%);
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    color: #000000;
+}
+.main{
+    width: 100%;
+    max-width: 100%;
+    height: 400px;
+    background-image: linear-gradient(red,blue);
+    margin-top: 100px;
+    border-radius: 10px;
+}
+.product-items{
+    width: 95%;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row-reverse;
+}
+.product-items > div{
+    margin-top: 10px;
+    width: 200px;
+    height: 70px;
+    background-color: white;
+    border-radius: 10px 0px 10px 0px;
+}
+.shoes{
+    width: 50%;
+    height: 100%;
+    border-radius: 0px 0px 10px 0px;
+}
+#zz{
+    background-color: rgb(164, 164, 229);
+    position: relative;
+    direction: rtl;
+    display: flex;
+    align-items: center;
+}
+.kill{
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    transform: translate(50%, -50%);
+    border: hidden;
+    background-color: #84949e;
+    border-radius: 10px 0px 10px 0px;
+    -webkit-border-radius: 10px 0px 10px 0px;
+    -moz-border-radius: 10px 0px 10px 0px;
+    -ms-border-radius: 10px 0px 10px 0px;
+    -o-border-radius: 10px 0px 10px 0px;
+}
+.text{
+    font-size: 10px;
+    width: 50%;
+    text-align: left;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
